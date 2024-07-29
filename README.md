@@ -2,6 +2,17 @@
 
 RESTful API da Santander Dev Week 2023 construída em Java 17 com Spring Boot 3.
 
+## Melhorias 
+
+- Explicação das Melhorias:
+    Comentário Javadoc: Adicionado para fornecer informações claras sobre a finalidade da classe e dos métodos. Isso ajuda a tornar o código mais compreensível para outros desenvolvedores e para futuras manutenções.
+
+- Método toModel:
+  Criação do Modelo: Embora o código original esteja correto, a criação do objeto News e a definição dos atributos são mantidas, mas agora com comentários explicativos para maior clareza. 
+  
+- Boas Práticas: 
+  O método toModel faz sentido dentro do contexto DTO para Model, garantindo que o DTO possa ser convertido de volta para o modelo de domínio.
+
 ## Principais Tecnologias
  - **Java 17**: Utilizaremos a versão LTS mais recente do Java para tirar vantagem das últimas inovações que essa linguagem robusta e amplamente utilizada oferece;
  - **Spring Boot 3**: Trabalharemos com a mais nova versão do Spring Boot, que maximiza a produtividade do desenvolvedor por meio de sua poderosa premissa de autoconfiguração;
